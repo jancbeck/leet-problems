@@ -20,3 +20,4 @@ export var productExceptSelf = function (nums) {
 
   return output;
 };
+// TODO: revisit this problem

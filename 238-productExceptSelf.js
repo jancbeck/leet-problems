@@ -17,6 +17,12 @@ export var productExceptSelf = function (nums) {
     output[i] *= right;
     right *= nums[i];
   }
+  // this code is only necessary so we don't return negative zero which will make the test case fail
+  for (let i = 0; i < n; i++) {
+    if (output[i] === -0) {
+      output[i] = 0;
+    }
+  }
 
   return output;
 };

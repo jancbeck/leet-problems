@@ -6,8 +6,8 @@ describe("maxProduct", function () {
     expect(maxProduct([2, 3, -2, 4])).toEqual(6);
   });
 
-  it("should return 0 for [-2,0,-2, 4,-3]", function () {
-    expect(maxProduct([-2, 0, -1, -2, 4,-3])).toEqual(0);
+  it("should return 0 for [-2,0,-1]", function () {
+    expect(maxProduct([-2, 0, -1])).toEqual(0);
   });
 
   it("should return 0 for [0,2]", function () {

@@ -1,4 +1,4 @@
-import { getSum } from "./sum-of-two-integers.js";
+import { getSum } from "./371-sum-of-two-integers.js";
 
 // BEGIN: 8f7e6d5a9c3b
 describe("getSum", function () {
